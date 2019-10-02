@@ -20,6 +20,7 @@ Ran binwalk to identify magic strings of files.
  It was a 900 bytes 7z file, I directly tried extracting file... but it was pwd protected :(
 
  ![7z extract image](wpn_4.png)
+ "dd if=some.7z"
 
  Before participating in CTF I read previous year domectf writeups, there was some challenges which was unlocked by simple passwords such as "domectf" "c0c0n" etc.
  So I tried all the possible & related password but no luck.
@@ -33,7 +34,7 @@ Ran binwalk to identify magic strings of files.
 
  My first thought was , might be this time password is simple just like before but there can be a case juggling involved. (But this is not what challenge creator meant)
 
- So I quickly searched for code snipped which can case juggle a word and echo all possible combination.
+ So I quickly searched for code snippet which can case juggle a word and echo all possible combination.
 
  I used following script
  ![permutation script image](wpn_6.png)
