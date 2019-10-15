@@ -8,19 +8,19 @@ The "United States - Play Store"  CTF is based on Android. An APK is provided an
 
 First it was simple to Decompile the APK. We used JADX De-compiler to decompile the APK. We obtained the source code from the APK.
 
-Reading the Android Manifest file it is clear that the first activity which is launched is  CameraActivity.
+Reading the Android Manifest file it was clear that the first activity which was launched is  CameraActivity.
 
 ![2](2.jpg)
 
 
 
-Reading that java files related to CameraActivity we can see that the activity needs us to scan the CTF Badge given to us to move to the next step.
+Reading the java files related to CameraActivity we can see that the activity needs us to scan the CTF Badge given to us to move to the next step.
 
 ![3](3.jpg)
 
 
 
-After scanning the ID Card we are redirected to the login screen.  On analysing the Login java file we can see that the username is Admin and the password is Base64 encode. After decoding the base64 string we get the password which is "**testpassword**".
+After scanning the ID Card we are redirected to the login screen.  On analysing the Login java file we can see that the username is Admin and the password is Base64 encode. After decoding the base64 string we got the password which is "**testpassword**".
 
 ![4](4.jpg)
 
@@ -34,9 +34,9 @@ After logging in using the obtained password we get to a screen with has a compa
 
 We thought that there were 3 options for us.
 
-* Reverse the SO file to obtain the flag.
+* Reverse the .SO file to obtain the flag.
 
-* Create a new APK to just call the function from the SO file bypassing all the constraints.
+* Create a new APK to just call the function from the .SO file bypassing all the constraints.
 
 * Perform all the steps in the current APK to satisfy the constraints and let the app display the flag.
 
