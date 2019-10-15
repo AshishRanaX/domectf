@@ -42,3 +42,5 @@ We thought that there were 3 options for us.
 
 
 Since we did not have an Android development environment setup we went for the 3rd step. We installed the APK on our mobile phone. Showed it our CTF Badge. Logged in using the username **Admin** and password **testpassword**. Kept the key compass at an angle between **27 degree** and **35 degree** and kept our finger on the proximity sensor for few seconds and we got the CTF flag pop up on the screen :)
+
+~ By @kr33pt
